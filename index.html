@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peng Spirit — Founder, AI-Native SaaS Builder</title>
+    <title>Peng-Ta Wang — Founder, AI-Native SaaS Builder</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <h1 class="name">Peng Spirit</h1>
-            <p class="tagline">Founder | Building Acortia (company memory SaaS) | YC-track</p>
+            <h1 class="name">Peng-Ta Wang</h1>
+            <p class="tagline">Founder, Incultnito LLC · Building AI-native software from a zero-coding start · YC-track</p>
             <div class="contact-links">
                 <a href="mailto:info@incultnito.com">📧 info@incultnito.com</a>
-                <a href="https://www.linkedin.com/in/incultnitostudios/" target="_blank">🔗 LinkedIn</a>
+                <a href="https://www.linkedin.com/in/pengincultnito" target="_blank">🔗 LinkedIn</a>
                 <a href="https://github.com/PengSpirit" target="_blank">💻 GitHub</a>
+                <a href="https://x.com/acortiaHQ" target="_blank">🐦 X</a>
                 <a href="https://acortia.com" target="_blank">🚀 Acortia</a>
             </div>
         </header>
@@ -24,56 +25,91 @@
             <section>
                 <h2>Current Focus</h2>
                 <div class="project">
-                    <h3>Acortia: Company Brain SaaS</h3>
-                    <p><em>May 2026 – Present | Pre-launch</em></p>
-                    <p>Discord-integrated SaaS platform that gives solo and 1–3 person AI-native founders instant access to company context at decision-making speed.</p>
+                    <h3>Acortia — Company Brain SaaS</h3>
+                    <p><em>2026 – Present | Live beta · YC F26 track</em></p>
+                    <p>A Discord-integrated company brain for AI-native founders: save context once, then ask grounded questions and get answers that cite their sources.</p>
                     <ul>
-                        <li><strong>ICP:</strong> Solo AI-native founders. Pricing: €99/month flat per workspace.</li>
-                        <li><strong>Stack:</strong> Node.js + TypeScript + Express + Supabase (pgvector + RLS) + Claude API + Discord.js + Stripe</li>
-                        <li><strong>Competitive lens:</strong> Interloom (€16.5M raised) goes enterprise. Acortia goes founder-first.</li>
-                        <li><strong>Timeline:</strong> 90-day build. Phase 1 (Days 1–30): Discord MVP + Notion ingestion. Phase 2 (Days 31–60): 10 paying customers. Phase 3 (Days 61–90): MCP server + CLI + YC submission.</li>
-                        <li><strong>Status:</strong> Day 16 of 90. Baseline cost: €200/mo → €0/mo.</li>
+                        <li><strong>What it does:</strong> retrieval-augmented answers across Notion, Discord, Gmail, GitHub, and PDFs — every answer names the documents it came from.</li>
+                        <li><strong>ICP &amp; pricing:</strong> solo and 1–3 person AI-native founders. $99/month flat per workspace, cancel anytime.</li>
+                        <li><strong>Stack:</strong> Fastify + TypeScript · Supabase (pgvector + RLS) · Claude API (Opus + Haiku) · OpenAI embeddings · Discord · Stripe · Render</li>
+                        <li><strong>Public demo:</strong> an interactive Company Brain on the marketing site — pick a question, read the cited answer, no signup gate.</li>
+                        <li><strong>Competitive lens:</strong> where others go enterprise, Acortia goes founder-first — flat price, no seats, no sales call.</li>
                     </ul>
                 </div>
             </section>
 
             <section>
-                <h2>Shipped & Iterated</h2>
+                <h2>Shipped &amp; Live</h2>
                 <div class="project">
-                    <h3>Incultnito Studio: Merch Concept Workflow</h3>
-                    <p><em>Jan 2026 – Present | Revenue-generating</em></p>
-                    <p>AI-powered workflow software that turns creative briefs into merch-ready concepts with preset-guided operators.</p>
+                    <h3>Incultnito Studio — Design-to-Merch Workflow</h3>
+                    <p><em>Live | Product Hunt launched May 2026</em></p>
+                    <p>AI workflow software that turns a creative brief into merch-ready concepts with preset-guided operators.</p>
                     <ul>
-                        <li><strong>Stack:</strong> Express, Supabase, Cloudinary, OpenAI + Gemini APIs, Stripe</li>
-                        <li><strong>Pipeline:</strong> draft → final_flat → print_ready (locked state machine)</li>
-                        <li><strong>Status:</strong> 3 operators live. Custom Shopify storefront. Early adopter customers paying subscription.</li>
+                        <li><strong>Flow:</strong> brief → preview → export, on a locked status pipeline (draft → final_flat → print_ready)</li>
+                        <li><strong>Stack:</strong> Next.js · Cloudflare Workers/Pages · Supabase · Cloudinary · OpenAI + Gemini image generation · Stripe · Printful</li>
+                        <li><strong>Storefront:</strong> custom Stripe-powered shop (no Shopify) with Printful fulfillment</li>
+                        <li><strong>Distribution:</strong> multi-platform social automation (Buffer + Meta Graph API)</li>
                     </ul>
                 </div>
 
                 <div class="project">
-                    <h3>mcp-probe: Open-Source MCP Diagnostics</h3>
-                    <p><em>Dec 2025 – Present | 100+ weekly npm downloads</em></p>
-                    <p>npm package that solves visibility for Model Context Protocol server health.</p>
+                    <h3>MCP Registry + Vouch — Trust Layer for MCP Servers</h3>
+                    <p><em>Live | CLI published to npm</em></p>
+                    <p>An npm-style registry for Model Context Protocol servers, with an OWASP-MCP-Top-10 trust score on every listing.</p>
                     <ul>
-                        <li><strong>Package:</strong> @incultnitostudiosllc/mcp-probe on npm</li>
-                        <li><strong>GitHub:</strong> <a href="https://github.com/PengSpirit/mcp-doctor" target="_blank">mcp-doctor</a></li>
-                        <li><strong>Traction:</strong> 100+ weekly downloads. Show HN launch completed.</li>
+                        <li><strong>Trust badge:</strong> a 0–100 score + A–F grade per server — the moat</li>
+                        <li><strong>CLI:</strong> <code>mcpr scan &lt;cmd|url&gt;</code> (@incultnitollc/mcpr)</li>
+                        <li><strong>Stack:</strong> pnpm + Turbo monorepo · Next.js · Cloudflare Pages · Supabase · scheduled scoring crons on Render</li>
                     </ul>
                 </div>
 
                 <div class="project">
-                    <h3>Happy Lion: ESL Learning Platform</h3>
-                    <p><em>Early stage | MVP built</em></p>
-                    <p>AI-generated lesson plans and practice flows for English teachers in Taiwan.</p>
+                    <h3>Ziying English — ESL Learning Platform</h3>
+                    <p><em>Production live | Taiwan</em></p>
+                    <p>Multi-role learning platform for a Taiwanese cram school: structured lessons, AI-generated homework with auto-grading, and progress tracking.</p>
                     <ul>
-                        <li><strong>Status:</strong> MVP frozen temporarily. Can accelerate with Acortia momentum.</li>
+                        <li><strong>Scale:</strong> 810 lessons across 16 tiers; 5-role auth (student, parent, teacher, manager, admin)</li>
+                        <li><strong>AI:</strong> Claude-powered homework generation + auto-grading, text-to-speech oral practice</li>
+                        <li><strong>Stack:</strong> React + TypeScript · Cloudflare Pages · Node/Express · Render · Supabase (Auth + RLS)</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h3>homeboys.app — Friendship for Men 30+</h3>
+                    <p><em>Live beta</em></p>
+                    <p>Helping men over 30 make real friends through shared activities — with strong safety and privacy defaults, not swiping.</p>
+                    <ul>
+                        <li><strong>Trust &amp; safety:</strong> phone-verified onboarding (Twilio Verify), DM and evening interaction gates, self-serve account deletion</li>
+                        <li><strong>Stack:</strong> Supabase (Postgres, Auth, RLS, Edge Functions) · Twilio Verify · Cloudflare Pages</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Open Source</h2>
+                <div class="project">
+                    <h3>mcp-probe — MCP Diagnostics CLI</h3>
+                    <p><em>Published to npm · v1.1.0</em></p>
+                    <p>One command inspects any Model Context Protocol server and returns a pass/fail health scorecard. Library exports for programmatic use.</p>
+                    <ul>
+                        <li><strong>Package:</strong> @incultnitollc/mcp-probe · multi-transport (stdio, SSE, HTTP)</li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/PengSpirit/mcp-doctor" target="_blank">PengSpirit/mcp-doctor</a> · MIT</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h3>cc-bridge — Session Bridge for Claude Code</h3>
+                    <p><em>Published to npm · v0.1.0</em></p>
+                    <p>A JSONL bridge that lets two local Claude Code sessions pass messages in real time — one window listens, one sends.</p>
+                    <ul>
+                        <li><strong>Package:</strong> @incultnitollc/cc-bridge · global CLI binary</li>
                     </ul>
                 </div>
             </section>
 
             <section>
                 <h2>Founder Mindset</h2>
-                <p>I have no engineering background. This constraint forced me to clarify my thinking. Every product decision must be defensible to a non-technical founder (me). My obsessions:</p>
+                <p>I have no engineering background. That constraint forced me to clarify my thinking — every product decision must be defensible to a non-technical founder (me). My obsessions:</p>
                 <ul>
                     <li><strong>Unit economics</strong> — not vanity metrics.</li>
                     <li><strong>Vertical slices</strong> — ship one thing end-to-end before breadth.</li>
@@ -85,36 +121,36 @@
             <section>
                 <h2>Operational Discipline</h2>
                 <div class="discipline">
-                    <h4>Infrastructure & Cost</h4>
-                    <p>Migrated from Vercel Pro (€200+/mo) to Cloudflare Pages (free). Eliminated Render overages. Custom Stripe storefronts. Current baseline: €0/mo.</p>
+                    <h4>Infrastructure &amp; Cost</h4>
+                    <p>Migrated off Vercel Pro to Cloudflare Pages/Workers. Eliminated Render overages. Custom Stripe storefronts instead of hosted platforms. Lean, mostly free-tier baseline.</p>
                 </div>
                 <div class="discipline">
-                    <h4>Finance & Compliance</h4>
+                    <h4>Finance &amp; Compliance</h4>
                     <p>Wyoming LLC (EIN + ITIN). Mercury + Wise for US banking from Taiwan. Interactive Brokers for investments. Manager.io for bookkeeping with nightly Mercury sync.</p>
                 </div>
                 <div class="discipline">
-                    <h4>Tech Stack (Frozen & Defended)</h4>
-                    <p>Node.js 20 + TypeScript strict. APIs: Claude, OpenAI, Gemini, Stripe, Discord.js v14. Database: Supabase. Hosting: Render + Cloudflare Pages. Assets: Cloudinary.</p>
+                    <h4>Tech Stack (Frozen &amp; Defended)</h4>
+                    <p>Node.js 20 + TypeScript strict. Fastify / Express / Next.js. APIs: Claude, OpenAI, Gemini, Stripe, Discord.js. Database: Supabase (pgvector + RLS). Hosting: Cloudflare Workers/Pages + Render. Assets: Cloudinary.</p>
                 </div>
             </section>
 
             <section>
                 <h2>Background</h2>
-                <p>English teacher at a cram school in Taiwan (part-time, income stability). Building AI-native products full-stack through constraint-driven workflows. Active in YC founder communities and open-source MCP ecosystem. Committed to relocating to San Francisco for YC Fall 2026 batch.</p>
+                <p>English teacher at a cram school in Taiwan, building AI-native products full-stack through constraint-driven workflows. Active in the YC founder community and the open-source MCP ecosystem. Eight products shipped; three published to npm.</p>
             </section>
 
             <section class="cta">
                 <h2>Let's Talk</h2>
-                <p>If you're building AI-native tools, seeking early Acortia beta testers, or interested in founder mentorship, I'd love to hear from you.</p>
+                <p>If you're building AI-native tools, curious about early Acortia beta access, or interested in founder collaboration, I'd love to hear from you.</p>
                 <div style="margin-top: 1.5rem;">
                     <a href="mailto:info@incultnito.com" class="cta-button">Email Me</a>
-                    <a href="https://www.linkedin.com/in/incultnitostudios/" target="_blank" class="cta-button secondary">Connect on LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/pengincultnito" target="_blank" class="cta-button secondary">Connect on LinkedIn</a>
                 </div>
             </section>
         </main>
 
         <footer>
-            <p>&copy; 2026 Peng Spirit. Building in public.</p>
+            <p>&copy; 2026 Peng-Ta Wang · Incultnito LLC · Building in public.</p>
         </footer>
     </div>
 </body>

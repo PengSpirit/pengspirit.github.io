@@ -32,6 +32,7 @@
                         <li><strong>Reliability layer:</strong> a reasoning harness + verifier benchmarked across three model providers (Claude, Gemini, gpt-oss) — not a single-model black box.</li>
                         <li><strong>Positioning:</strong> AI audit trail / agent-access-governance, differentiated from opaque RPA vendors.</li>
                         <li><strong>Tooling:</strong> Claude Code, n8n, Zapier, Make, custom MCP servers.</li>
+                        <li><strong>Industry impact:</strong> agentic automation is spreading fast, but most teams can't explain what an agent actually did — this gives them a real audit trail instead of a black box.</li>
                     </ul>
                 </div>
                 <div class="project">
@@ -44,6 +45,7 @@
                         <li><strong>Stack:</strong> Fastify + TypeScript · Supabase (pgvector + RLS) · Claude API (Opus + Haiku) · OpenAI embeddings · Discord · Stripe · Render</li>
                         <li><strong>Public demo:</strong> an interactive Company Brain on the marketing site — pick a question, read the cited answer, no signup gate.</li>
                         <li><strong>Competitive lens:</strong> where others go enterprise, Acortia goes founder-first — flat price, no seats, no sales call.</li>
+                        <li><strong>Industry impact:</strong> most "company brain" tools assume an enterprise buyer with a data team; Acortia targets the much larger population of solo and small AI-native teams that enterprise RAG tools ignore.</li>
                     </ul>
                 </div>
             </section>
@@ -59,6 +61,7 @@
                         <li><strong>Stack:</strong> Next.js · Cloudflare Workers/Pages · Supabase · Cloudinary · OpenAI + Gemini image generation · Stripe · Printful</li>
                         <li><strong>Storefront:</strong> custom Stripe-powered shop (no Shopify) with Printful fulfillment</li>
                         <li><strong>Distribution:</strong> multi-platform social automation (Buffer + Meta Graph API)</li>
+                        <li><strong>Industry impact:</strong> AI image tools promise speed but skip the print-production constraints (bleed, DPI, spot color); Studio's pipeline is built around an actual manufacturing handoff, not just a pretty render.</li>
                     </ul>
                 </div>
 
@@ -70,6 +73,7 @@
                         <li><strong>Trust badge:</strong> a 0–100 score + A–F grade per server — the moat</li>
                         <li><strong>CLI:</strong> <code>mcpr scan &lt;cmd|url&gt;</code> (@incultnitollc/mcpr)</li>
                         <li><strong>Stack:</strong> pnpm + Turbo monorepo · Next.js · Cloudflare Pages · Supabase · scheduled scoring crons on Render</li>
+                        <li><strong>Industry impact:</strong> MCP servers are spreading with almost no vetting; a public 0–100 trust score gives builders a way to sanity-check a server before they run it.</li>
                     </ul>
                 </div>
 
@@ -81,6 +85,7 @@
                         <li><strong>Scale:</strong> 810 lessons across 16 tiers; 5-role auth (student, parent, teacher, manager, admin)</li>
                         <li><strong>AI:</strong> Claude-powered homework generation + auto-grading, text-to-speech oral practice, and a live GEPT-aligned speaking-assessment AI judge</li>
                         <li><strong>Stack:</strong> React + TypeScript · Cloudflare Pages · Node/Express · Render · Supabase (Auth + RLS)</li>
+                        <li><strong>Industry impact:</strong> Taiwan's cram-school market runs largely on manual grading and paper worksheets; this gives one school AI-graded homework and a live speaking-assessment judge most competitors don't have yet.</li>
                     </ul>
                 </div>
 
@@ -91,6 +96,7 @@
                     <ul>
                         <li><strong>Trust &amp; safety:</strong> phone-verified onboarding (Twilio Verify), DM and evening interaction gates, self-serve account deletion</li>
                         <li><strong>Stack:</strong> Supabase (Postgres, Auth, RLS, Edge Functions) · Twilio Verify · Cloudflare Pages</li>
+                        <li><strong>Industry impact:</strong> most social apps optimize for swiping, not showing up; homeboys bets that activity-first, safety-gated design beats another feed for men specifically.</li>
                     </ul>
                 </div>
             </section>
@@ -137,6 +143,7 @@
                 <div class="discipline">
                     <h4>Finance &amp; Compliance</h4>
                     <p>Wyoming LLC (EIN + ITIN). Mercury + Wise for US banking from Taiwan. Interactive Brokers for investments. Manager.io for bookkeeping with nightly Mercury sync.</p>
+                    <p><strong>Entity note, stated plainly:</strong> the operating entity is a Wyoming LLC, not a Delaware C-Corp. That's a fine, cheap structure for running the business today — it doesn't support SAFEs or a priced equity round, which need a C-Corp. That conversion is a real, open decision, gated on an attorney consult, not yet made.</p>
                 </div>
                 <div class="discipline">
                     <h4>Tech Stack (Frozen &amp; Defended)</h4>
@@ -147,6 +154,44 @@
             <section>
                 <h2>Background</h2>
                 <p>Non-technical founder in Taiwan, building AI-native products full-stack through constraint-driven workflows. Active in the YC founder community and the open-source MCP ecosystem. Eight products shipped; three published to npm.</p>
+            </section>
+
+            <section>
+                <h2>What's Next</h2>
+                <div class="project">
+                    <h3>Nightfall Bestiary — Faceless Video Channel</h3>
+                    <p><em>Not yet built</em></p>
+                    <p>A second faceless YouTube channel: scary Asian mythology, explained through a host character's encounters with each monster. Name locked, voice-gen and video-gen stack researched. Blocked on setting up a new Google account before build starts.</p>
+                </div>
+                <div class="project">
+                    <h3>homegirls — Women's Counterpart to homeboys.app</h3>
+                    <p><em>Built, not deployed</em></p>
+                    <p>Same activity-first, safety-gated model as homeboys, for women. Code is done — held back on a production database migration and review pass, not a product decision.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Questions Investors Ask</h2>
+                <div class="discipline">
+                    <h4>Are you currently raising?</h4>
+                    <p>No — I'm not running an external round right now. Fundraising research for Acortia was shelved in July 2026 pending the C-Corp conversion decision above; it's parked, not dead.</p>
+                </div>
+                <div class="discipline">
+                    <h4>Why a Wyoming LLC instead of a Delaware C-Corp?</h4>
+                    <p>It's cheap and simple to run a bootstrapped, self-funded business through — which is what this has been so far. It genuinely can't take a priced round or SAFEs, and converting is a real, attorney-gated decision I haven't made yet. I'd rather say that plainly than paper over it.</p>
+                </div>
+                <div class="discipline">
+                    <h4>What traction can you share?</h4>
+                    <p>Several products are live in production today — Incultnito Studio, MCP Registry + Vouch, Ziying English, homeboys.app. I don't publish specific usage or revenue numbers on this page; happy to go deeper in a real conversation.</p>
+                </div>
+                <div class="discipline">
+                    <h4>What's the team?</h4>
+                    <p>Just me, right now — no co-founders or hires yet. See "Founder Mindset" above for how a non-technical background shapes how I build.</p>
+                </div>
+                <div class="discipline">
+                    <h4>What are you looking for?</h4>
+                    <p>Mostly customers and collaborators at this stage, not capital. If you're building something adjacent, I'd rather talk about that than a pitch.</p>
+                </div>
             </section>
 
             <section class="cta">
